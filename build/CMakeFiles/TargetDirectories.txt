@@ -1,0 +1,6 @@
+C:/Users/1/Desktop/class/microcontrollers/lab1/build/CMakeFiles/stm32_template.dir
+C:/Users/1/Desktop/class/microcontrollers/lab1/build/CMakeFiles/bin.dir
+C:/Users/1/Desktop/class/microcontrollers/lab1/build/CMakeFiles/hex.dir
+C:/Users/1/Desktop/class/microcontrollers/lab1/build/CMakeFiles/flash.dir
+C:/Users/1/Desktop/class/microcontrollers/lab1/build/CMakeFiles/edit_cache.dir
+C:/Users/1/Desktop/class/microcontrollers/lab1/build/CMakeFiles/rebuild_cache.dir

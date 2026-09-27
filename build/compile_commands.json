@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/1/Desktop/class/microcontrollers/lab1/build",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc\" -DSTM32F103C8 -DSTM32F10X_MD -IC:/Users/1/Desktop/class/microcontrollers/lab1/cmsis -IC:/Users/1/Desktop/class/microcontrollers/lab1/stm32 -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles\\stm32_template.dir\\stm32\\startup\\startup_stm32f10x_md.c.obj -c C:\\Users\\1\\Desktop\\class\\microcontrollers\\lab1\\stm32\\startup\\startup_stm32f10x_md.c",
+  "file": "C:\\Users\\1\\Desktop\\class\\microcontrollers\\lab1\\stm32\\startup\\startup_stm32f10x_md.c",
+  "output": "CMakeFiles\\stm32_template.dir\\stm32\\startup\\startup_stm32f10x_md.c.obj"
+},
+{
+  "directory": "C:/Users/1/Desktop/class/microcontrollers/lab1/build",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc\" -DSTM32F103C8 -DSTM32F10X_MD -IC:/Users/1/Desktop/class/microcontrollers/lab1/cmsis -IC:/Users/1/Desktop/class/microcontrollers/lab1/stm32 -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles\\stm32_template.dir\\stm32\\system_stm32f10x.c.obj -c C:\\Users\\1\\Desktop\\class\\microcontrollers\\lab1\\stm32\\system_stm32f10x.c",
+  "file": "C:\\Users\\1\\Desktop\\class\\microcontrollers\\lab1\\stm32\\system_stm32f10x.c",
+  "output": "CMakeFiles\\stm32_template.dir\\stm32\\system_stm32f10x.c.obj"
+},
+{
+  "directory": "C:/Users/1/Desktop/class/microcontrollers/lab1/build",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc\" -DSTM32F103C8 -DSTM32F10X_MD -IC:/Users/1/Desktop/class/microcontrollers/lab1/cmsis -IC:/Users/1/Desktop/class/microcontrollers/lab1/stm32 -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles\\stm32_template.dir\\syscalls\\syscalls.c.obj -c C:\\Users\\1\\Desktop\\class\\microcontrollers\\lab1\\syscalls\\syscalls.c",
+  "file": "C:\\Users\\1\\Desktop\\class\\microcontrollers\\lab1\\syscalls\\syscalls.c",
+  "output": "CMakeFiles\\stm32_template.dir\\syscalls\\syscalls.c.obj"
+},
+{
+  "directory": "C:/Users/1/Desktop/class/microcontrollers/lab1/build",
+  "command": "\"C:\\Program Files\\Arm\\GNU Toolchain mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc\" -DSTM32F103C8 -DSTM32F10X_MD -IC:/Users/1/Desktop/class/microcontrollers/lab1/cmsis -IC:/Users/1/Desktop/class/microcontrollers/lab1/stm32 -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles\\stm32_template.dir\\main.c.obj -c C:\\Users\\1\\Desktop\\class\\microcontrollers\\lab1\\main.c",
+  "file": "C:\\Users\\1\\Desktop\\class\\microcontrollers\\lab1\\main.c",
+  "output": "CMakeFiles\\stm32_template.dir\\main.c.obj"
+}
+]

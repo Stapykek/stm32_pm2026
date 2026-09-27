@@ -1,0 +1,293 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: c:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: c:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/1/Desktop/class/microcontrollers/lab1/build/CMakeFiles/3.30.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: c:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: c:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/1/Desktop/class/microcontrollers/lab1/build/CMakeFiles/3.30.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/1/Desktop/class/microcontrollers/lab1/build/CMakeFiles/CMakeScratch/TryCompile-wqkjc4"
+      binary: "C:/Users/1/Desktop/class/microcontrollers/lab1/build/CMakeFiles/CMakeScratch/TryCompile-wqkjc4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/1/Desktop/class/microcontrollers/lab1/build/CMakeFiles/CMakeScratch/TryCompile-wqkjc4'
+        
+        Run Build Command(s): C:/mingw64/bin/ninja.exe -v cmTC_dd8c9
+        [1/2] c:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE   -v -o CMakeFiles/cmTC_dd8c9.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=c:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE
+        Target: arm-none-eabi
+        Configured with: /var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/install --with-gmp=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpfr=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpc=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-isl=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-zstd=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-libiconv-prefix=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=x86_64-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.3.1 20260627 (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dd8c9.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_dd8c9.dir/'
+         C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/cc1.exe -quiet -v -iprefix C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/ -isysroot C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_dd8c9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\1\\AppData\\Local\\Temp\\ccMe1XDQ.s
+        GNU C23 (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) version 15.3.1 20260627 (arm-none-eabi)
+        	compiled by GNU C version 13-win32, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/include"
+        ignoring nonexistent directory "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../arm-none-eabi/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/15.3.1/../../../../include"
+        ignoring duplicate directory "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/include-fixed"
+        ignoring duplicate directory "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/include
+         C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/include-fixed
+         C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: f90d3e0112144dd5b94700173c925ae0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dd8c9.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_dd8c9.dir/'
+         C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_dd8c9.dir/CMakeCCompilerABI.c.obj C:\\Users\\1\\AppData\\Local\\Temp\\ccMe1XDQ.s
+        GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) 2.45.1.20260126
+        COMPILER_PATH=C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dd8c9.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_dd8c9.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && c:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE  -v CMakeFiles/cmTC_dd8c9.dir/CMakeCCompilerABI.c.obj -o cmTC_dd8c9   && cd ."
+        FAILED: cmTC_dd8c9 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && c:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE  -v CMakeFiles/cmTC_dd8c9.dir/CMakeCCompilerABI.c.obj -o cmTC_dd8c9   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=c:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR19DD~1.EXE
+        COLLECT_LTO_WRAPPER=C:/Program\\ Files/Arm/GNU\\ Toolchain\\ mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: /var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/install --with-gmp=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpfr=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpc=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-isl=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-zstd=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-libiconv-prefix=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=x86_64-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.3.1 20260627 (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) 
+        COMPILER_PATH=C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dd8c9' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'cmTC_dd8c9.'
+         C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/collect2.exe -plugin C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/liblto_plugin.dll -plugin-opt=C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\1\\AppData\\Local\\Temp\\ccWbsW6U.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_dd8c9 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/crti.o C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/crtbegin.o C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/crt0.o -LC:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1 -LC:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc -LC:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib -LC:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib CMakeFiles/cmTC_dd8c9.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/crtend.o C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/crtn.o
+        C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-exit.o): in function `exit':
+        exit.c:(.text.exit+0x28): undefined reference to `_exit'
+        C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-closer.o): in function `_close_r':
+        closer.c:(.text._close_r+0x18): undefined reference to `_close'
+        C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+        lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+        C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-readr.o): in function `_read_r':
+        readr.c:(.text._read_r+0x24): undefined reference to `_read'
+        C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-writer.o): in function `_write_r':
+        writer.c:(.text._write_r+0x24): undefined reference to `_write'\x0d
+        C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':\x0d
+        sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'\x0d
+        collect2.exe: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/1/Desktop/class/microcontrollers/lab1/build/CMakeFiles/CMakeScratch/TryCompile-vl6jso"
+      binary: "C:/Users/1/Desktop/class/microcontrollers/lab1/build/CMakeFiles/CMakeScratch/TryCompile-vl6jso"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/1/Desktop/class/microcontrollers/lab1/build/CMakeFiles/CMakeScratch/TryCompile-vl6jso'
+        
+        Run Build Command(s): C:/mingw64/bin/ninja.exe -v cmTC_68786
+        [1/2] c:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR10B2~1.EXE   -v -o CMakeFiles/cmTC_68786.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=c:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR10B2~1.EXE
+        Target: arm-none-eabi
+        Configured with: /var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/install --with-gmp=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpfr=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpc=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-isl=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-zstd=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-libiconv-prefix=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=x86_64-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.3.1 20260627 (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_68786.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_68786.dir/'
+         C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/cc1plus.exe -quiet -v -iprefix C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/ -isysroot C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_68786.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\\Users\\1\\AppData\\Local\\Temp\\ccoo1XBd.s
+        GNU C++17 (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) version 15.3.1 20260627 (arm-none-eabi)
+        	compiled by GNU C version 13-win32, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include/c++/15.3.1"
+        ignoring duplicate directory "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include/c++/15.3.1/arm-none-eabi"
+        ignoring duplicate directory "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include/c++/15.3.1/backward"
+        ignoring duplicate directory "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/include"
+        ignoring nonexistent directory "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../arm-none-eabi/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/15.3.1/../../../../include"
+        ignoring duplicate directory "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/include-fixed"
+        ignoring duplicate directory "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include/c++/15.3.1
+         C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include/c++/15.3.1/arm-none-eabi
+         C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include/c++/15.3.1/backward
+         C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/include
+         C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/include-fixed
+         C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: a5612ced7e034a58501bf9d692a3b4ba
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_68786.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_68786.dir/'
+         C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_68786.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\1\\AppData\\Local\\Temp\\ccoo1XBd.s
+        GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) 2.45.1.20260126
+        COMPILER_PATH=C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_68786.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_68786.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && c:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR10B2~1.EXE  -v CMakeFiles/cmTC_68786.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_68786   && cd ."
+        FAILED: cmTC_68786 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && c:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR10B2~1.EXE  -v CMakeFiles/cmTC_68786.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_68786   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=c:\\PROGRA~1\\Arm\\GNUTOO~1\\bin\\AR10B2~1.EXE
+        COLLECT_LTO_WRAPPER=C:/Program\\ Files/Arm/GNU\\ Toolchain\\ mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: /var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/install --with-gmp=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpfr=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-mpc=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-isl=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-zstd=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --with-libiconv-prefix=/var/tmp/jenkins/workspace/gnu_toolchains/arm_builds/arm-15/build-mingw-arm-none-eabi/host-tools --enable-mingw-wildcard --host=x86_64-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.3.1 20260627 (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) 
+        COMPILER_PATH=C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/;C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68786' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'cmTC_68786.'
+         C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/collect2.exe -plugin C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/liblto_plugin.dll -plugin-opt=C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\1\\AppData\\Local\\Temp\\ccaVLSeh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_68786 C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/crti.o C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/crtbegin.o C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/crt0.o -LC:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1 -LC:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc -LC:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib -LC:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../arm-none-eabi/lib CMakeFiles/cmTC_68786.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/crtend.o C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/crtn.o
+        C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-exit.o): in function `exit':
+        exit.c:(.text.exit+0x28): undefined reference to `_exit'
+        C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-closer.o): in function `_close_r':
+        closer.c:(.text._close_r+0x18): undefined reference to `_close'
+        C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+        lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+        C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-readr.o): in function `_read_r':
+        readr.c:(.text._read_r+0x24): undefined reference to `_read'
+        C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-writer.o): in function `_write_r':
+        writer.c:(.text._write_r+0x24): undefined reference to `_write'\x0d
+        C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':\x0d
+        sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'\x0d
+        collect2.exe: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

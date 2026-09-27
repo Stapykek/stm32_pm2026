@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stm32_template",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bin-Debug-4c65dbb45864d59f3e10.json",
+					"name" : "bin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flash::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flash-Debug-15eb0bab9bb3289e7f99.json",
+					"name" : "flash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hex-Debug-dc5680804f4016e90291.json",
+					"name" : "hex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_template::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_template-Debug-0d87e0cd6a9ed36fadf8.json",
+					"name" : "stm32_template",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/1/Desktop/class/microcontrollers/lab1/build",
+		"source" : "C:/Users/1/Desktop/class/microcontrollers/lab1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

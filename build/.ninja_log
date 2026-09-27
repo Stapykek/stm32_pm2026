@@ -1,0 +1,12 @@
+# ninja log v6
+7	335	8122248110892982	build.ninja	f8dba8efad0a25d3
+10	76	8122246233944751	CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.obj	4f915bbf6a3b42a
+27	136	8122246234114447	CMakeFiles/stm32_template.dir/main.c.obj	203a281105065b4a
+203	228	8122246236047534	build/stm32_template.bin	f36d8d5e5b955b
+20	48	8122246305224295	build/stm32_template.hex	4a431e9ecfc52992
+15	127	8122246233992250	CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.obj	b0d61e37235f6a8e
+22	106	8122246234054216	CMakeFiles/stm32_template.dir/syscalls/syscalls.c.obj	fd074928c6ff7942
+136	203	8122246235209611	build/stm32_template.elf	33cf82f79ce02ac1
+4	16	8122215151931012	clean	d6542ab91c93f907
+203	228	8122246236047534	C:/Users/1/Desktop/class/microcontrollers/lab1/build/build/stm32_template.bin	f36d8d5e5b955b
+20	48	8122246305224295	C:/Users/1/Desktop/class/microcontrollers/lab1/build/build/stm32_template.hex	4a431e9ecfc52992

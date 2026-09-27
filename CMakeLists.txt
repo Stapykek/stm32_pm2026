@@ -1,4 +1,7 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.10)
+
+# Set CMAKE_SYSTEM_NAME to Generic so that CMake doesn't try to use compiler and linker flags for Windows
+set(CMAKE_SYSTEM_NAME Generic)
 
 # Disable compiler checking
 # Otherwise it will fall with `reference to _exit() not found` error
